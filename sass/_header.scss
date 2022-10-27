@@ -1,0 +1,67 @@
+header {
+    
+    box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+    border-radius: 0px;
+    padding: 31px 0;
+    margin-bottom: 60px;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav__btn{
+            display: flex;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+    }
+}
+
+.hero {
+
+    .hero__info{
+        
+        display: flex;
+        justify-content: space-between;
+        background-color: #E3EBF1;
+        align-items: center;
+        padding: 64px 66px;
+        border-radius: 10px;
+        margin-bottom: 77px;
+        h3{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+            color: #10843F;
+            padding-top: 8px;
+        }
+        h1{
+            font-weight: 400;
+            font-size: 47px;
+            line-height: 52px;
+            color: #1D2F38;
+            padding-bottom: 22px;
+        }
+        p{
+            font-family: $Font-Raleway;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            color: #333333;
+            width: 474px;
+            padding-bottom: 25px;
+        }
+        a{
+            color: #fff;
+            background: #17A550;
+            border-radius: 5px;
+            padding: 15px;
+            display: inline-block;
+        }
+    }
+    
+}
+// finish navbar section
