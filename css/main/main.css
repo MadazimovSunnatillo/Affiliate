@@ -253,6 +253,20 @@ header .navbar ul {
   justify-content: space-between;
   gap: 40px;
 }
+header .navbar ul li:hover {
+  color: rgb(238, 27, 27);
+  transition-duration: 1000ms;
+  box-shadow: 6px 4px 32px 0px rgba(12, 48, 236, 0.2);
+}
+header .navbar ul a:hover {
+  color: #0edfee;
+  transition-duration: 1000ms;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+header .navbar ul a:hover:active {
+  color: red;
+}
 
 .hero .hero__info {
   display: flex;
@@ -292,4 +306,9 @@ header .navbar ul {
   border-radius: 5px;
   padding: 15px;
   display: inline-block;
+}
+.hero .hero__info a:hover {
+  color: #000;
+  background-color: #536D7A;
+  transition-duration: 1000ms;
 }/*# sourceMappingURL=main.css.map */

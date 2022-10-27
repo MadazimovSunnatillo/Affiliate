@@ -16,6 +16,24 @@ header {
             display: flex;
             justify-content: space-between;
             gap: 40px;
+            li{
+                 &:hover {
+                     color: rgb(238, 27, 27);
+                    transition-duration: 1000ms;
+                    -webkit-box-shadow: 6px 4px 32px 0px rgba(12, 48, 236, 0.2);
+                    -moz-box-shadow: 6px 4px 32px 0px rgba(12, 48, 236, 0.2);
+                    box-shadow: 6px 4px 32px 0px rgba(12, 48, 236, 0.2);
+                          }
+                
+              }
+              a:hover{
+                color: #0edfee;
+                transition-duration: 1000ms;
+                text-decoration-line: underline;
+                &:active{
+                    color: red;
+                }
+              }
         }
     }
 }
@@ -60,6 +78,11 @@ header {
             border-radius: 5px;
             padding: 15px;
             display: inline-block;
+                &:hover {
+                  color: #000;
+                  background-color: #536D7A;
+                  transition-duration: 1000ms;
+                }
         }
     }
     
