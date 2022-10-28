@@ -311,4 +311,110 @@ header .navbar ul a:hover:active {
   color: #000;
   background-color: #536D7A;
   transition-duration: 1000ms;
+}
+
+.main1 {
+  color: #1D2F38;
+}
+.main1 h2 {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 33px;
+}
+
+.cardej {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1D2F38;
+}
+.cardej img {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.cerd1 h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 9px;
+}
+.cerd1 p {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.playmain {
+  margin: 60px auto;
+}
+.playmain a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1D2F38;
+}
+.playmain a img {
+  margin-right: 9px;
+}
+
+.btn_link {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #17A550;
+}
+.btn_link:hover {
+  color: #000;
+  background-color: #536D7A;
+  transition-duration: 1000ms;
+}
+
+.mainh2 {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 33px;
+}
+
+.cardlet {
+  background-color: #F7F9FA;
+  color: #1D2F38;
+  margin-right: 40px;
+}
+.cardlet img {
+  width: 100%;
+}
+.cardlet h3 {
+  margin-top: 24px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cardlet p {
+  margin-top: 13px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }/*# sourceMappingURL=main.css.map */
