@@ -8,7 +8,7 @@
     }
   ],
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Abyss",
+  // "workbench.colorTheme": "Abyss",
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
   "git.autofetch": true
